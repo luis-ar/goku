@@ -1,0 +1,64 @@
+
+
+* {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  margin-right: 0px;
+
+}
+body{
+  background-color: black;
+}
+.inicio{
+  color:#A569BD;
+  background-color: #3498DB;
+  text-align: center;
+}
+
+.caja{
+  margin: auto;
+  margin-top: 50px;
+
+  width:320px;
+  height: 400px;
+  background-color: red;
+  border: 5px solid black;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 50px;
+  border:5px solid yellow;
+}
+img {
+
+  width: 320px;
+  height: 350px;
+  position: relative;
+  top: 240px;
+  left: 240px;
+  outline: 3px solid red;
+  transition: all 1s;
+  background-color: white;
+  
+}
+.luis:hover > img{
+  position: relative;
+  top: -55px;
+  left: 0;
+  outline: 4px solid blue;
+
+  }
+.texto{
+  background-color: blue;
+  margin: 0;
+  position: relative;
+  top: -30px;
+  text-align: center;
+}
+.entrada{
+  background-color: purple;
+  color: black;
+  display: inline-block;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+}
